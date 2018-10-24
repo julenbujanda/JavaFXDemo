@@ -11,7 +11,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        myPane = FXMLLoader.load(getClass().getResource("../view/cchannel.fxml"));
+        myPane = FXMLLoader.load(getClass().getResource("view/cchannel.fxml"));
         primaryStage.setTitle("CChannel");
         primaryStage.setScene(new Scene(myPane));
         primaryStage.show();

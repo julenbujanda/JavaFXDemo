@@ -8,6 +8,17 @@
     -fx-background-color:orange;
 }
 
-.button:hover {
+.anchorPane{
+    -fx-background-color: rgb(34,193,195);
+    -fx-background-color: linear-gradient( rgba(34,193,195,1) 0%, rgb(253, 187, 45) 100%);
+}
 
+.title{
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+}
+
+.subtitle{
+    -fx-font-size: 18;
+    -fx-text-fill: white;
 }
