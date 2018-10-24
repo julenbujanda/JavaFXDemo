@@ -1,0 +1,13 @@
+.button {
+    -fx-background-color: orange;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0.5, 0.0, 0.0);
+}
+
+#bottom_pane{
+    -fx-background-color:orange;
+}
+
+.button:hover {
+
+}
